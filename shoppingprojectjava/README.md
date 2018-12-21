@@ -15,7 +15,32 @@ select this project location
 ### Prerequisites
 Java
 ### Input format
-
+~~~
+1 1
+2 2
+-1
+~~~
+type your name to generate the bill :
+~~~
+mrinal
+~~~
 ### Output format
+~~~
+-------------------------------------------------------
+|  Bill No: 346323 Fri Dec 21 14:48:45 IST 2018
+
+|  Customers Name: null
+
+|  apple  156  1
+
+|  orange  70  2
+
+|  apple  156  1
+
+|  orange  70  2
+
+total Amount: 296
+-------------------------------------------------
+~~~
 
 # License
