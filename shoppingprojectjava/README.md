@@ -9,8 +9,8 @@ cd shoppingprojectsjava
 ~~~
 Open & run the project in your preffered IDE
 ~~~
-javac Shop.java
-java Shop
+open eclipse IDE
+select this project location
 ~~~
 ### Prerequisites
 Java
