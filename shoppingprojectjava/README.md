@@ -16,7 +16,7 @@ java Shop
 Java
 ### Input format
 
-## Output formal
+### Output formal
 
 # License
 
