@@ -1,19 +1,19 @@
+package main;
+
 import java.io.*;
 import java.util.*;
 
-public class student{
+public class Hostel{
        static void allotHostel()throws IOException{
            BufferedWriter out = null;
            try{
-            out = new BufferedWriter(new FileWriter("allotedhostel.txt", true));
-            //   out.write("ok");
+            out = new BufferedWriter(new FileWriter("allotedhostel.txt"));
                try{
                 BufferedReader br = new BufferedReader(new FileReader("hostel.txt"));
                 String line = null;
                 int r = 101;
                 while ((line = br.readLine()) != null) {
                     String[] splited = line.split("\\s+");
-                   // System.out.println(splited[0] + splited[1]);
                     
                     out.write(splited[0] +" "+ splited[1]+" "+ Integer.toString(r++));
                     out.newLine();
@@ -30,7 +30,7 @@ public class student{
            }
        }
 
-       static boolean verifyStudent(int regNo){
+       public static boolean verifyStudent(int regNo){
          try{
              BufferedReader br = new BufferedReader(new FileReader("hostel.txt"));
                String line = null;
@@ -40,7 +40,6 @@ public class student{
                 System.out.println(regNo);
                 String reg = Integer.toString(regNo);
                     if(splited[1].equals(reg) ){
-                       // System.out.println(splited[0]);
                         return false;
                     }
                 }
@@ -50,7 +49,7 @@ public class student{
             return true;
         }
            
-       static boolean verifyName(String name)throws IOException{
+       public static boolean verifyName(String name)throws IOException{
         try{
              BufferedReader br = new BufferedReader(new FileReader("hostel.txt"));
                String line = null;
@@ -59,7 +58,6 @@ public class student{
                 System.out.println(splited[0]);
                 System.out.println(name);
                     if(splited[0].equals(name)){
-                       // System.out.println(splited[0]);
                         return false;
                     }
                 }
@@ -98,7 +96,7 @@ public class student{
             boolean checkName = verifyName(name);
             System.out.println(checkStu);
             System.out.println(checkName);
-            if(!checkStu || checkName){
+            if(!(checkStu && checkName)){
                 System.out.println("User already alloted Hostel!!");
                 name = typeName();
                 continue;
