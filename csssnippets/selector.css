@@ -1,6 +1,6 @@
 h1{
     font-style: italic;
-    background: grey;
+    background: #4d4c4c;
 }
 .whatever{
     border: 2px solid red;
@@ -8,3 +8,38 @@ h1{
 #something{
     background: blue;
 }
+
+* {
+    padding: 5px;
+    border: 1px solid black;
+  }  
+  .sample{
+	border-style: dotted;
+}
+.dotted {border-style: dotted;}
+.dashed {border-style: dashed;}
+.solid {border-style: solid;}
+.double {border-style: double;}
+.groove {border-style: groove;}
+.ridge {border-style: ridge;}
+.inset {border-style: inset;}
+.outset {border-style: outset;}
+.none {border-style: none;}
+.hidden {border-style: hidden;}
+.mix {border-style: dotted dashed solid double;}
+
+#something{
+    /* Apply to all four sides */
+padding: 1em;
+}
+.sample{
+/* vertical | horizontal */
+padding: 5% 10%;
+}
+
+
+.whatever{
+/* top | horizontal | bottom */
+padding: 1em 2em 2em; 
+}
+
