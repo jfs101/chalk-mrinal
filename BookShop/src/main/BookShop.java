@@ -4,22 +4,9 @@ import main.Item;
 
 import main.CustomerName;
 import main.Cart;
-import main.Bill;
-
-import java.io.*;
 import java.util.*;
 
-
-
-
-
-
-
-
-
-
-
-public class Shop{
+public class BookShop{
  
   public static Item [] itemAvailable = new Item[50];
     // static item[] inCart = new item[20];

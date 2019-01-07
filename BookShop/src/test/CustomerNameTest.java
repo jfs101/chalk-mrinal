@@ -5,10 +5,16 @@ import static org.junit.jupiter.api.Assertions.*;
 import org.junit.jupiter.api.Test;
 import main.CustomerName;
 
+
+/*
+ * CHANGING OF TEST FILES MAY LEAD TO DISQUALIFICATION OF YOUR PROJECT !!!
+ * 	
+ */
+
 class CustomerNameTest {
 
 	@Test
-	void test() {
+	void customerTest() {
 		
 		CustomerName cn = new CustomerName();
 		String test = "testnameCust";

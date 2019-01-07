@@ -10,6 +10,12 @@ import org.junit.jupiter.api.Test;
 import main.Cart;
 import main.Item;
 
+
+/*
+ * CHANGING OF TEST FILES MAY LEAD TO DISQUALIFICATION OF YOUR PROJECT !!!
+ * 	
+ */
+
 class ItemTest {
 	
 	
@@ -20,7 +26,7 @@ class ItemTest {
 	}
 	String n;
 	@Test
-	void test() {
+	void itemTest() {
 		
 		 n = "testName";
 		int mrp = 4535;
@@ -32,9 +38,6 @@ class ItemTest {
 		assertEquals(mrp,i.getMrp());
 		//fail("Not yet implemented");
 	}
-	@Test
-	void test2() {
-		assertEquals(n,i.getItemName());
-	}
+
 
 }

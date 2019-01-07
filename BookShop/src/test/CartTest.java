@@ -2,27 +2,33 @@ package test;
 
 import static org.junit.jupiter.api.Assertions.*;
 
+
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
 import main.Cart;
 import main.Item;
-import main.Shop;
+import main.BookShop;
 //import main.Item;
-class CartTest {
 
+/*
+ * CHANGING OF TEST FILES MAY LEAD TO DISQUALIFICATION OF YOUR PROJECT !!!
+ * 	
+ */
+
+class CartTest {
 	Cart c;
-	Shop s;
+	BookShop s;
 	@BeforeEach
 	void setUp() throws Exception {
 		c = new Cart();
-		s = new Shop();
+		s = new BookShop();
 		
 	}
 
 	@SuppressWarnings("static-access")
 	@Test
-	void test() {
+	void cartTest1() {
 //		s.itemAvailable[0]
 	    for(int i=0;i<2;i++){
             s.itemAvailable[i] = new Item();
@@ -37,9 +43,9 @@ class CartTest {
 	}
 	@SuppressWarnings("static-access")
 	@Test
-	void test3() {
+	void cartTest2() {
 		Cart c1 = new Cart();
-		Shop s1 = new Shop();
+		BookShop s1 = new BookShop();
 		
 		//		s.itemAvailable[0]
 	    for(int i=0;i<2;i++){
@@ -55,10 +61,10 @@ class CartTest {
 	}
 	@SuppressWarnings("static-access")
 	@Test
-	void test4() {
+	void cartTest3() {
 //		s.itemAvailable[0]
 		Cart c2 = new Cart();
-		Shop s2 = new Shop();
+		BookShop s2 = new BookShop();
 	    for(int i=0;i<2;i++){
             s2.itemAvailable[i] = new Item();
         }

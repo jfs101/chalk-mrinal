@@ -6,18 +6,21 @@ import org.junit.jupiter.api.Test;
 
 import main.Cart;
 import main.Item;
-import main.Shop;
+import main.BookShop;
 
 class BillTest {
-	
+/*
+ * CHANGING OF TEST FILES MAY LEAD TO DISQUALIFICATION OF YOUR PROJECT !!!
+ * 	
+ */
 	
 	
 	
 	@SuppressWarnings("static-access")
 	@Test
-	void test2() {
+	void billTest() {
 		Cart c = new Cart();
-		Shop s = new Shop();
+		BookShop s = new BookShop();
 		int t = 0;
 		
 		for(int i=0;i<2;i++){
@@ -45,9 +48,9 @@ class BillTest {
 	
 	@SuppressWarnings("static-access")
 	@Test
-	void test3() {
+	void billTest2() {
 		Cart c = new Cart();
-		Shop s = new Shop();
+		BookShop s = new BookShop();
 		int t = 0;
 		
 		for(int i=0;i<2;i++){
@@ -85,14 +88,4 @@ class BillTest {
 		//fail("Not yet implemented");
 		 assertEquals(t,c.calcBill());
 	}
-	
-	
-	
-	
-	
-	@Test
-	void test() {
-		fail("Not yet implemented");
-	}
-
 }

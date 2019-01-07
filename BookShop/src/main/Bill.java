@@ -29,8 +29,4 @@ public class Bill extends CustomerName{
         System.out.println("|  Bill No: "+billNo+" "+date+'\n');
         System.out.println("|  Customers Name: "+ name+'\n');
     }
-    
-    
-
-
 }
