@@ -14,32 +14,32 @@ import main.Hostel;
 
 
 class StudentTest {
-
+	Hostel h ;
 	@SuppressWarnings("static-access")
 	@Test
-	void test() throws IOException {
+	void studentNameTest() throws IOException {
 		boolean chk = true;
-		Hostel h = new Hostel();
+		h	= new Hostel();
 		
-		BufferedWriter out = new BufferedWriter(new FileWriter("hostel.txt"));
-			
+		BufferedWriter out = new BufferedWriter(new FileWriter("hostel.txt",true));
+//		assertEquals(false,h.verifyName("test rNo"));
+				
 			out.write("test rNo");
 			chk=true;
 			BufferedReader read = new BufferedReader(new FileReader("hostel.txt"));
-			 String line = null;
-	            while ((line = read.readLine()) != null) {
-	                if(line.equalsIgnoreCase("test rNo")) {
-	                	chk = false;
-	                	break;
-	                }
-	            }
 		
-		assertEquals(chk,h.verifyName("test rNo"));
+		
+		assertEquals(true,h.verifyName("test rNo"));
 		
 		
 		
 		
 //		fail("Not yet implemented");
+	}
+	@SuppressWarnings("static-access")
+	void studentDuplicacyTest() throws IOException{
+//		boolean chk = true;
+		assertEquals(false,h.verifyName("abcdef"));
 	}
 
 }

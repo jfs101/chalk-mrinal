@@ -4,7 +4,7 @@ import java.io.*;
 import java.util.*;
 
 public class Hostel{
-       static void allotHostel()throws IOException{
+       public static void allotHostel()throws IOException{
            BufferedWriter out = null;
            try{
             out = new BufferedWriter(new FileWriter("allotedhostel.txt"));
@@ -36,8 +36,8 @@ public class Hostel{
                String line = null;
             while ((line = br.readLine()) != null) {
                 String[] splited = line.split("\\s+");
-                System.out.println(splited[1]);
-                System.out.println(regNo);
+//                System.out.println(splited[1]);
+//                System.out.println(regNo);
                 String reg = Integer.toString(regNo);
                     if(splited[1].equals(reg) ){
                         return false;
@@ -55,8 +55,8 @@ public class Hostel{
                String line = null;
             while ((line = br.readLine()) != null) {
                 String[] splited = line.split("\\s+");
-                System.out.println(splited[0]);
-                System.out.println(name);
+//                System.out.println(splited[0]);
+//                System.out.println(name);
                     if(splited[0].equals(name)){
                         return false;
                     }
@@ -94,8 +94,7 @@ public class Hostel{
             //verify Register number using a function verifyStudent
             boolean checkStu = verifyStudent(regNo);
             boolean checkName = verifyName(name);
-            System.out.println(checkStu);
-            System.out.println(checkName);
+//            mrin
             if(!(checkStu && checkName)){
                 System.out.println("User already alloted Hostel!!");
                 name = typeName();
