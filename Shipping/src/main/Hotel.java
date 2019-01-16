@@ -5,6 +5,13 @@ public class Hotel{
 	int hotelId;
 	Place hotelPlace;
 	public int price;
+	String status;
+	public String getStatus() {
+		return status;
+	}
+	public void setStatus(String status) {
+		this.status = status;
+	}
 	public Hotel(String hName,int Id,Place hPlace,int price) {
 		setHotelName(hName);
 		setHotelId(Id);

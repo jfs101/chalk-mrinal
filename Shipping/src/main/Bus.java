@@ -5,6 +5,13 @@ public class Bus{
 	int BusNo;
 	public Routes r;
 	int price;
+	String status;
+	public String getStatus() {
+		return status;
+	}
+	public void setStatus(String status) {
+		this.status = status;
+	}
 	public Bus(String name,int num,Routes r,int price) {
 		setBusName(name);
 		setBusNo(num);
