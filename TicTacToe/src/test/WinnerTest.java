@@ -6,6 +6,11 @@ import org.junit.jupiter.api.Test;
 
 import main.TicTacToe;
 
+/*
+ * CHANGING OF TEST FILES MAY LEAD TO DISQUALIFICATION OF PROJECT
+ * 
+ */
+
 class WinnerTest {
 
 	TicTacToe m;

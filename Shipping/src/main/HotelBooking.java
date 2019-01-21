@@ -41,9 +41,11 @@ public class HotelBooking{
 		return price;
 	}
 	public void setPrice() {
-		int month = checkOut.month - checkIn.month;
-		int date = checkOut.date - checkIn.date;
-		int stay = date  + (month*30);
-		price = h.price*stay;
+		//Write your code here !!!
+		
+		//to get the month stay subtract checkout month from checkIn month
+		//to get the date of stay subtract checkout  date from checkIn date
+		//then calc the total no of days stay in hotel 
+		//set the price to hotel price multiplied by no of stay days.
 	}
 }

@@ -50,6 +50,7 @@ Bus bus;
 		assertEquals((p+p*(23/10))+500,pb.getPrice());
 	//1029   1190
 	}
+	
 	@Test
 	void test() {
 		p = new Place("testCity",560068,"testState","India");

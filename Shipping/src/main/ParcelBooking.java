@@ -43,13 +43,13 @@ public class ParcelBooking{
 	}
 
 	public void setPrice() {
+		// write your code here !!! 
+		// the  base price of parcel booking is  100
 		price = 100;
-		price = price *(r.distance)/10;
-		price = price + price * (getWeight()/10);
-		if(isFragile()) {
-			price = price + 500;
-		}
-		
+		//divide the distance between two cities by 10 & multiply by price & set the price is equal to product
+		// get the weight of parcel and divide it by 10 multiply by price add it to the existing price
+		// check if the product is fragile add 500 more to the price.
+	
 	}
 	
 }

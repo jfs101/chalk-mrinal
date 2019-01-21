@@ -16,15 +16,12 @@ import org.junit.jupiter.api.Test;
 import main.Hostel;
 
 /**
- * @author mrinal
+ * CHANGING OF TESTCASE MAY LEAD TO DISQUALIFICATION OF YOUR PROJECT !!!
  *
  */
 class HostelTest {
 
 	Hostel h;
-
-	
-	
 	@SuppressWarnings("static-access")
 	@Test
 	void hostelAllotTest() throws IOException {
@@ -61,9 +58,6 @@ class HostelTest {
 			if(chk) {
 				assertEquals("test1","xw");
 			}
-		 
-		 
-//		fail("Not yet implemented");
 	}
 
 }

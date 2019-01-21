@@ -17,23 +17,23 @@ public class BookShop{
             itemAvailable[i] = new Item();
         }
 
-        itemAvailable[0].addItem("maggi", 40);
-        itemAvailable[1].addItem("apple", 156);
-        itemAvailable[2].addItem("orange", 70);
-        itemAvailable[3].addItem("onion", 16);
-        itemAvailable[4].addItem("potato", 19);
-        itemAvailable[5].addItem("eggs", 168);
-        itemAvailable[6].addItem("whole wheat", 45);
+        itemAvailable[0].addItem("To kill a mockingbird", 40);
+        itemAvailable[1].addItem("My experiment with truth", 156);
+        itemAvailable[2].addItem("when breath becomes air", 70);
+        itemAvailable[3].addItem("Into thin air", 16);
+        itemAvailable[4].addItem("red notice", 19);
+        itemAvailable[5].addItem("Boys in the Boat", 168);
+        itemAvailable[6].addItem("Just mercy", 45);
         itemAvailable[7].addItem("red label", 140);
-        itemAvailable[8].addItem("olive oil", 650);
-        itemAvailable[9].addItem("Harpic", 77);
-        itemAvailable[10].addItem("Sanitry pads", 14);
-        itemAvailable[11].addItem("parachute",36);
-        itemAvailable[12].addItem("sunflower oil", 87);
+        itemAvailable[8].addItem("Mountain beyond mountains", 650);
+        itemAvailable[9].addItem("Just kids", 77);
+        itemAvailable[10].addItem("The Autobiography of Benjamin Franklin", 14);
+        itemAvailable[11].addItem("Night",36);
+        itemAvailable[12].addItem("The Glass Castle", 87);
         itemAvailable[13].addItem("nuttella", 240);
         itemAvailable[14].addItem("Dove", 143);
-        itemAvailable[15].addItem("colgate", 82);
-        itemAvailable[16].addItem("surf excel", 84);
+        itemAvailable[15].addItem("Not Fade Away", 82);
+        itemAvailable[16].addItem("Money Ball", 84);
 
         
         System.out.println("S.no" +"    "+"itemName"+"     "+ "MRP");

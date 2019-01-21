@@ -30,8 +30,7 @@ class ItemTest {
 		
 		 n = "testName";
 		int mrp = 4535;
-		i.setItemName(n);
-		i.setMrp(mrp);
+		i.addItem(n, mrp);
 		
 		
 		

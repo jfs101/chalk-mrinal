@@ -6,6 +6,11 @@ import org.junit.jupiter.api.Test;
 
 import main.Calculator;
 
+/*
+ * CHANGING OF TEST FILES MAY LEAD TO DISQUALIFICATION OF PROJECTS !!!
+ * 
+ */
+
 class TestingCalc {
 	Calculator c;
 	@SuppressWarnings("static-access")

@@ -9,7 +9,10 @@ public class BusBooking{
 	int price;
 	String Ticket;
 	public String getTicket() {
-		Ticket = "From"+b.r.p1.getCityname()+" | "+"to"+" | "+b.r.p2.getCityname()+" | "+boardingDate.date;
+		//write your code here !!!
+	    // get the starting city-name and destination city-name
+		// the format for the ticket is  FromStartingcity | to | destination-city | boarding date
+		
 		return Ticket;
 	}
 	public int getPrice() {

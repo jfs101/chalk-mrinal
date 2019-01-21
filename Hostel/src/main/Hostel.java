@@ -11,13 +11,11 @@ public class Hostel{
                try{
                 BufferedReader br = new BufferedReader(new FileReader("hostel.txt"));
                 String line = null;
-                int r = 101;
-                while ((line = br.readLine()) != null) {
-                    String[] splited = line.split("\\s+");
-                    
-                    out.write(splited[0] +" "+ splited[1]+" "+ Integer.toString(r++));
-                    out.newLine();
-                    }
+                int room = 101;
+               
+                //write your code here !!!
+                
+                
                 }catch(Exception e){
                     System.out.println(e);
                 }
@@ -53,14 +51,9 @@ public class Hostel{
         try{
              BufferedReader br = new BufferedReader(new FileReader("hostel.txt"));
                String line = null;
-            while ((line = br.readLine()) != null) {
-                String[] splited = line.split("\\s+");
-//                System.out.println(splited[0]);
-//                System.out.println(name);
-                    if(splited[0].equals(name)){
-                        return false;
-                    }
-                }
+            
+               //write your code here !!!
+               
             }catch(Exception e){
                 System.out.println(e);
             }
@@ -94,7 +87,7 @@ public class Hostel{
             //verify Register number using a function verifyStudent
             boolean checkStu = verifyStudent(regNo);
             boolean checkName = verifyName(name);
-//            mrin
+
             if(!(checkStu && checkName)){
                 System.out.println("User already alloted Hostel!!");
                 name = typeName();
