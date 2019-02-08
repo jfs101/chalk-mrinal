@@ -1,0 +1,6 @@
+projectKey=hostel2
+serverUrl=http://localhost:9000
+serverVersion=6.7.6.38781
+dashboardUrl=http://localhost:9000/dashboard/index/hostel2
+ceTaskId=AWi9YcoeM9--DKGTH7cS
+ceTaskUrl=http://localhost:9000/api/ce/task?id=AWi9YcoeM9--DKGTH7cS

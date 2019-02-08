@@ -1,0 +1,6 @@
+projectKey=bookShop13
+serverUrl=https://betasonarqube.faceprep.in
+serverVersion=7.4.0.18908
+dashboardUrl=https://betasonarqube.faceprep.in/dashboard?id=bookShop13
+ceTaskId=AWjCxbcat1Kjumf16JAc
+ceTaskUrl=https://betasonarqube.faceprep.in/api/ce/task?id=AWjCxbcat1Kjumf16JAc
